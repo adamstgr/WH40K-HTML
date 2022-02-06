@@ -1,6 +1,6 @@
 html {
-    background-color:rgb(7, 17, 12);
-    border: 40px solid rgb(14, 39, 27);
+    background-color:rgb(14, 39, 27);
+    border: 40px solid rgb(7, 17, 12);
 }
 body {
     color:chartreuse;
@@ -31,7 +31,7 @@ footer {
     color:green;
 }
 a {
-    color: rgb(4, 63, 4);
+    color: rgb(6, 88, 6);
     text-decoration: none;
     padding-bottom: 25px;
 }
