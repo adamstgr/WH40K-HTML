@@ -1,4 +1,4 @@
-html {
+/*html {
     background-color:rgb(14, 39, 27);
     border: 40px solid rgb(7, 17, 12);
 }
@@ -27,9 +27,6 @@ footer {
 #mainHeading {
     color: red;
 }
-.funParagraph {
-    color:green;
-}
 a {
     color: rgb(6, 88, 6);
     text-decoration: none;
@@ -49,4 +46,44 @@ a:hover {
 .images {
     border-color: rgb(2, 255, 44);
     border-width: 25px;
+}*/
+
+body {
+    background: black; /* to mimic the surrounding environment of a monitor */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 8px;
+    display: block; /* a common font for old computers */
+}
+
+#monitor {
+    background: gray;
+    border: 30px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* give the monitor a bit of a 3D effect */
+}
+
+#screen {
+    background: #000;
+    height: 500px; /* adjust to suit your design */
+    width: 800px; /* adjust to suit your design */
+    color: #0f0; /* old computer screens often had green text */
+    padding: 20px;
+    overflow: auto; /* in case your content is larger than the screen */
+}
+
+.links {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+h1,h2 {
+    text-align: center;
+    margin-bottom: 25px;
 }
